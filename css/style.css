@@ -1,0 +1,69 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+
+}
+.loginform{
+	width: 500px;
+	margin: 50px auto;
+	padding: 80px;
+	background: lightskyblue;
+	border: 2px solid darkblue;
+
+}
+.avater{
+	width: 100%;
+	text-align: center;
+}
+.avater img{
+	width: 120px;
+	height: 120px;
+	border-radius: 100%;
+	margin: 0px 0px 20px;
+}
+.loginform h1{
+	text-align: center;
+	font-size: 36px;
+	line-height: 46px;
+	text-transform: uppercase;
+	color: darkblue;
+	border-radius: 10px;
+	margin: 0px 0px 20px;
+}
+.form-group{
+	width: 100%;
+	margin: 0px 0px 15px;
+}
+.form-group label{
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+}
+.form-control{
+	width: 95%;
+	padding: 15px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: darkblue;
+	border: 2px solid darkblue;
+	border-radius: 10px;
+}
+.btn-primary{
+	padding: 15px 40px;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: darkblue;
+	background-color: whitesmoke;
+	border: 2px solid darkblue;border-radius: 10px;
+	transition: 1s;
+}
+.btn-primary:hover{
+	color: royalblue;
+	background-color: greenyellow;
+	border: 2px solid darkblue;border-radius: 10px;
+	cursor: pointer;
+}
